@@ -48,39 +48,6 @@ def jenw():
         sys.stdout.flush()
 
 
-import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, requests, mechanize
-from multiprocessing.pool import ThreadPool
-from requests.exceptions import ConnectionError
-from mechanize import Browser
-reload(sys)
-sys.setdefaultencoding('utf8')
-br = mechanize.Browser()
-br.set_handle_robots(False)
-br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
-br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16;]')]
-br.addheaders = [('User-Agent', 'Dalvik/2.1.0 (Linux; U; Android 9; SM-N960U Build/PPR1.180610.011;]')]
-br.addheaders = [('user-agent', 'Mozilla/5.0 (Linux; Android 11; RMX2195) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Mobile Safari/537.36;]')]
-
-def jalan(z):
-	for e in z + '\n':
-		sys.stdout.write(e)
-		sys.stdout.flush()
-		time.sleep(0.03)
-
-back = 0
-oks = []
-id = []
-cpb = []
-vulnot = '\x1b[31mNot Vuln'
-vuln = '\x1b[32mVuln'
-os.system('clear')
-print
-print logo1
-print 47 * '\x1b[1;91m-'
-def lisensi():
-    os.system('clear')
-    main1()
-
 def main1():
     if 1 in fuck:
         os.system('#')
