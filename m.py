@@ -79,23 +79,10 @@ id = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 os.system('clear')
-print("""
-         
-         \x1b[1;97m ooo        ooooo       .o.       ooooo   ooooo oooooooooo.   ooooo  \033[1;0m
-         \x1b[1;91m  88.       .888'      .888.      `888'   `888' `888'   `Y8b  `888 \033[1;0m
-         \x1b[1;97m  888b     d'888      .8"888.      888     888   888      888  888  \033[1;0m
-         \x1b[1;91m  8 Y88. .P  888     .8' `888.     888ooooo888   888      888  888  \033[1;0m
-         \x1b[1;97m  8  `888'   888    .88ooo8888.    888     888   888      888  888 \033[1;0m
-         \x1b[1;91m  8    Y     888   .8'     `888.   888     888   888     d88'  888  \033[1;0m
-         \x1b[1;97m o8o        o888o o88o     o8888o o888o   o888o o888bood8P'   o888o  \033[1;0m
-         \x1b[1;97m------------------------\x1b[1;97m------------------------Ã—
-         \033[1;91m[!]\033[1;97m Author \x1b[1;97m  : \x1b[1;97m          MAHDI HASAN SHUVO
-         \033[1;91m[!]\033[1;97m Facebook\x1b[1;97m:  \x1b[1;97m          facebook.com/m.mahdi.80
-         \033[1;91m[!]\033[1;97m GitHub\x1b[1;97m  :  \x1b[1;97m           MAHDI SHUVO
-         \033[1;91m[!]\033[1;97m Version\x1b[1;97m : \x1b[1;97m             4.0.0
-         \x1b[1;97m------------------------\x1b[1;97m------------------------Ã—
-         \033[1;31m👏iam SSC examiner plz  pray  me for get good result👏
-                                                 """)
+print '\33[93m███╗   ███╗ █████╗██╗  ██╗██████╗ ██╗     \n\033[91m███╗ ████║██╔══██╗██║  ██║██╔══██╗██║    \n\033[1;32m██╔████╔██║███████║███████║██║  ██║██║   \n\33[97m██║╚██╔╝██║██╔══██║██╔══██║██║  ██║██║    \n\033[96m██║ ╚═╝ ██║██║  ██║██║  ██║██████╔╝██║    \n\033[0;35m╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝\033[0m\n \033[0m================================================================\n\33[93mAUTHOR :\033[91m[MAHDI HASAN] \033[1;34m{SHUVO}\n\033[0;33mGITHUB : \033[1;97mhttps://github.com/MAHDI-Shuvo\n\033[1;32mWhatapp;01887408882\n\033[1;33mFB;MAHDI AHDAN SHUVO\nLIVE in Sylhet (Read in class 10)\n\033[42mNo NEED GF \033[0;31mIF YOU LOVE ME I LOVE YOU IF U HAT ME I FUCK YOU\n ================================================================\n\033[1;31m👏iam SSC examiner plz  pray  me for get good result👏'
+logo1 = ' \33[93m███╗   ███╗ █████╗██╗  ██╗██████╗ ██╗     \n\033[91m███╗ ████║██╔══██╗██║  ██║██╔══██╗██║    \n\033[1;32m██╔████╔██║███████║███████║██║  ██║██║   \n\33[97m██║╚██╔╝██║██╔══██║██╔══██║██║  ██║██║    \n\033[96m██║ ╚═╝ ██║██║  ██║██║  ██║██████╔╝██║    \n\033[0;35m╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝\033[0m\n \033[0m================================================================\n\33[93mAUTHOR :\033[91m[MAHDI HASAN] \033[1;34m{SHUVO}\n\033[0;33mGITHUB : \033[1;97mhttps://github.com/MAHDI-Shuvo\n\033[1;32mWhatapp;01887408882\n\033[1;33mFB;MAHDI AHDAN SHUVO\nLIVE in Sylhet (Read in class 10)\n\033[42mNo NEED GF \033[0;31mIF YOU LOVE ME I LOVE YOU IF U HAT ME I FUCK YOU\n ================================================================\n\033[1;31m👏iam SSC examiner plz  pray  me for get good result👏'
+logo2 = '\33[93m███╗   ███╗ █████╗██╗  ██╗██████╗ ██╗     \n\033[91m███╗ ████║██╔══██╗██║  ██║██╔══██╗██║    \n\033[1;32m██╔████╔██║███████║███████║██║  ██║██║   \n\33[97m██║╚██╔╝██║██╔══██║██╔══██║██║  ██║██║    \n\033[96m██║ ╚═╝ ██║██║  ██║██║  ██║██████╔╝██║    \n\033[0;35m╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝\033[0m\n \033[0m================================================================\n\33[93mAUTHOR :\033[91m[MAHDI HASAN] \033[1;34m{SHUVO}\n\033[0;33mGITHUB : \033[1;97mhttps://github.com/MAHDI-Shuvo\n\033[1;32mWhatapp;01887408882\n\033[1;33mFB;MAHDI AHDAN SHUVO\nLIVE in Sylhet (Read in class 10)\n\033[42mNo NEED GF \033[0;31mIF YOU LOVE ME I LOVE YOU IF U HAT ME I FUCK YOU\n ================================================================\n\033[1;31m👏iam SSC examiner plz  pray  me for get good result👏\n\n'
+
 def lisensi():
     os.system('clear')
     login()
