@@ -79,10 +79,23 @@ id = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 os.system('clear')
-print '\n\x1b[36m\n     # #    # ### #     #  #####\n      # #   #   #  ##    # #     #\n      # #  #    #  # #   # #\n      # ###     #  #  #  # #  ####\n#     # #  #    #  #   # # #     #\n#     # #   #   #  #    ## #     #\n #####  #    # ### #     #  #####                                             \n\x1b[33m______________________________________________________\n\n[*] DEVELOPER : AryanNafas\n[*] TELEGRAM  : AryanHack907\n[*] GITHIB    :   AryanHack907\n[*] TOOLS     : OLD ID CLON 2009\n\n[*] UPDATE : JKING-907\n\x1b[32m_____________________________________________________\n'
-logo1 = '\n\x1b[36m\n      # #    # ### #     #  #####\n      # #   #   #  ##    # #     #\n      # #  #    #  # #   # #\n      # ###     #  #  #  # #  ####\n#     # #  #    #  #   # # #     #\n#     # #   #   #  #    ## #     #\n #####  #    # ### #     #  #####\n                                                                                                  \n\x1b[33m______________________________________________________\n\n[*] DEVELOPER : AryanNafas\n[*] TELEGRAM : AryanHack907\n[*] GITHIB    : AryanHack907\n[*] TOOLS     : OLD ID CLON 2009\n\n[*] UPDATE : JKING-907\n\x1b[32m_____________________________________________________\n\n'
-logo2 = '\n\x1b[36m\n      # #    # ### #     #  #####\n      # #   #   #  ##    # #     #\n      # #  #    #  # #   # #\n      # ###     #  #  #  # #  ####\n#     # #  #    #  #   # # #     #\n#     # #   #   #  #    ## #     #\n #####  #    # ### #     #  #####                                                                                \n\x1b[33m______________________________________________________\n\n[*] DEVELOPER : AryanNafas\n[*] TELEGRAM : AryanNafas\n[*] GITHIB    : AryanHack907\n[*] TOOLS     : OLD ID CLON 2009\n\n[*] UPDATE : JKING-907\n\x1b[32m_____________________________________________________\n\n'
-
+print("""
+         
+         \x1b[1;97m ooo        ooooo       .o.       ooooo   ooooo oooooooooo.   ooooo  \033[1;0m
+         \x1b[1;91m  88.       .888'      .888.      `888'   `888' `888'   `Y8b  `888 \033[1;0m
+         \x1b[1;97m  888b     d'888      .8"888.      888     888   888      888  888  \033[1;0m
+         \x1b[1;91m  8 Y88. .P  888     .8' `888.     888ooooo888   888      888  888  \033[1;0m
+         \x1b[1;97m  8  `888'   888    .88ooo8888.    888     888   888      888  888 \033[1;0m
+         \x1b[1;91m  8    Y     888   .8'     `888.   888     888   888     d88'  888  \033[1;0m
+         \x1b[1;97m o8o        o888o o88o     o8888o o888o   o888o o888bood8P'   o888o  \033[1;0m
+\x1b[1;97m------------------------\x1b[1;97m------------------------Ã—
+\033[1;91m[!]\033[1;97m Author \x1b[1;97m  : \x1b[1;97m          MAHDI HASAN SHUVO
+\033[1;91m[!]\033[1;97m Facebook\x1b[1;97m:  \x1b[1;97m          facebook.com/m.mahdi.80
+\033[1;91m[!]\033[1;97m GitHub\x1b[1;97m  :  \x1b[1;97m           MAHDI SHUVO
+\033[1;91m[!]\033[1;97m Version\x1b[1;97m : \x1b[1;97m             4.0.0
+\x1b[1;97m------------------------\x1b[1;97m------------------------Ã—
+\033[1;31m👏iam SSC examiner plz  pray  me for get good result👏
+                                                 """)
 def lisensi():
     os.system('clear')
     login()
