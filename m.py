@@ -88,13 +88,13 @@ print("""
          \x1b[1;97m  8  `888'   888    .88ooo8888.    888     888   888      888  888 \033[1;0m
          \x1b[1;91m  8    Y     888   .8'     `888.   888     888   888     d88'  888  \033[1;0m
          \x1b[1;97m o8o        o888o o88o     o8888o o888o   o888o o888bood8P'   o888o  \033[1;0m
-\x1b[1;97m------------------------\x1b[1;97m------------------------Ã—
-\033[1;91m[!]\033[1;97m Author \x1b[1;97m  : \x1b[1;97m          MAHDI HASAN SHUVO
-\033[1;91m[!]\033[1;97m Facebook\x1b[1;97m:  \x1b[1;97m          facebook.com/m.mahdi.80
-\033[1;91m[!]\033[1;97m GitHub\x1b[1;97m  :  \x1b[1;97m           MAHDI SHUVO
-\033[1;91m[!]\033[1;97m Version\x1b[1;97m : \x1b[1;97m             4.0.0
-\x1b[1;97m------------------------\x1b[1;97m------------------------Ã—
-\033[1;31m👏iam SSC examiner plz  pray  me for get good result👏
+         \x1b[1;97m------------------------\x1b[1;97m------------------------Ã—
+         \033[1;91m[!]\033[1;97m Author \x1b[1;97m  : \x1b[1;97m          MAHDI HASAN SHUVO
+         \033[1;91m[!]\033[1;97m Facebook\x1b[1;97m:  \x1b[1;97m          facebook.com/m.mahdi.80
+         \033[1;91m[!]\033[1;97m GitHub\x1b[1;97m  :  \x1b[1;97m           MAHDI SHUVO
+         \033[1;91m[!]\033[1;97m Version\x1b[1;97m : \x1b[1;97m             4.0.0
+         \x1b[1;97m------------------------\x1b[1;97m------------------------Ã—
+         \033[1;31m👏iam SSC examiner plz  pray  me for get good result👏
                                                  """)
 def lisensi():
     os.system('clear')
